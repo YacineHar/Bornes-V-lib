@@ -1,0 +1,150 @@
+.station-popup {
+    min-width: 250px;
+    max-width: 320px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.station-popup h3 {
+    margin: 0 0 0.8rem 0;
+    color: #3d4a2e;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-bottom: 2px solid #8b7355;
+    padding-bottom: 0.5rem;
+}
+
+.station-info {
+    margin-bottom: 1rem;
+}
+
+.station-info p {
+    margin: 0.4rem 0;
+    font-size: 0.88rem;
+    color: #4a4a4a;
+    line-height: 1.4;
+}
+
+.station-info strong {
+    color: #2d3a1e;
+    font-weight: 600;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.15rem 0.4rem;
+    border-radius: 1px;
+    font-size: 0.8rem;
+    margin-left: 0.4rem;
+    font-weight: 500;
+    border: 1px solid transparent;
+}
+
+.status-operative {
+    background-color: #6b8e5a;
+    color: white;
+    border-color: #5a7d4a;
+}
+
+.status-out of service,
+.status-closed {
+    background-color: #a85d3a;
+    color: white;
+    border-color: #8b4d2a;
+}
+
+.popup-actions {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 1rem;
+    border-top: 1px solid #ddd;
+    padding-top: 0.8rem;
+}
+
+.popup-actions button {
+    flex: 1;
+    padding: 0.5rem;
+    border: 2px solid;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.btn-edit {
+    background-color: #6b8e5a;
+    color: white;
+    border-color: #5a7d4a;
+}
+
+.btn-edit:hover {
+    background-color: #5a7d4a;
+}
+
+.btn-delete {
+    background-color: #a85d3a;
+    color: white;
+    border-color: #8b4d2a;
+}
+
+.btn-delete:hover {
+    background-color: #98552a;
+}
+
+.btn-save {
+    background-color: #6b8e5a;
+    color: white;
+    border-color: #5a7d4a;
+}
+
+.btn-save:hover:not(:disabled) {
+    background-color: #5a7d4a;
+}
+
+.btn-save:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-cancel {
+    background-color: #8b8b8b;
+    color: white;
+    border-color: #6b6b6b;
+}
+
+.btn-cancel:hover {
+    background-color: #7b7b7b;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.form-field label {
+    font-size: 0.82rem;
+    color: #5a5a5a;
+    font-weight: 500;
+}
+
+.form-field input,
+.form-field select {
+    padding: 0.5rem;
+    border: 1px solid #8b7355;
+    border-radius: 1px;
+    font-size: 0.88rem;
+    background: white;
+}
+
+.form-field input:focus,
+.form-field select:focus {
+    outline: 2px solid #7a8d5a;
+    outline-offset: -2px;
+    border-color: #7a8d5a;
+}
